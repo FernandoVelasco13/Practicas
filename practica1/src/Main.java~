@@ -1,0 +1,11 @@
+public class Main {
+	public static void main(String[] args) {
+
+		SistemaNavegacion sistema = new SistemaNavegacion();
+		Localidad uno = new Localidad("Puerto Bonito", true, ["Cine", "Playa"]);
+		Localidad uno = new Localidad("Manzanillo", true, ["Comida"]);
+		Localidad uno = new Localidad("Playa Alta", true, ["Comida", "Playa"]);
+		Localidad uno = new Localidad("Centro", false, null);
+		Localidad uno = new Localidad("Buena Vista", false, null);
+	}
+}

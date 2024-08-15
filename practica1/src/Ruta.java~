@@ -1,0 +1,9 @@
+public class Ruta {
+
+	private Localidad[] localidades;
+	private int id;
+	private double distacia;
+
+	public Ruta(Localidad[] localidades)
+	
+}
