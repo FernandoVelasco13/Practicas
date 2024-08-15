@@ -1,7 +1,7 @@
 public class PuntoDeInteres {
-	private Categoria[] categorias;
+	private String[] categorias;
 
-	public PuntoDeInteres(Categoria[] categorias) {
+	public PuntoDeInteres(String[] categorias) {
 		this.categorias = categorias;
 	}
 }
