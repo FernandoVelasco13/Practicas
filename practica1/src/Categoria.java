@@ -1,7 +1,10 @@
-public class Categoria {
-	private String nombre;
+public enum Categoria {
 
-	public Categoria(String nombre) {
-		this.nombre = nombre;
-	}
+	NINGUNA,
+
+	CENTROS_COMERCIALES,
+
+	TIENDAS,
+
+	HOSPITAL
 }

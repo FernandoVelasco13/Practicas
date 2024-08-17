@@ -7,7 +7,7 @@ public class SistemaNavegacion {
 	public SistemaNavegacion() {
 		mapa = new Mapa();
 		rutas = new Ruta[3];
-	}
+	}z
 
 	public void altaLocalidad(String localidad) {
 		Localidad a = mapa.buscaLocalidad(localidad);
