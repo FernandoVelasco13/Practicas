@@ -1,19 +1,29 @@
+
 public class Main {
+
 	public static void main(String[] args) {
-
-		SistemaNavegacion sistema = new SistemaNavegacion();
-		Localidad uno = new Localidad("Puerto Bonito", true, null);
-		Localidad dos = new Localidad("Manzanillo", true, null);
-		Localidad tres = new Localidad("Playa Alta", true, null);
-		Localidad cuatro = new Localidad("Centro", false, null);
-		Localidad cinco = new Localidad("Buena Vista", false, null);
-
-		sistema.agregaLocalidad(uno);
-		sistema.agregaLocalidad(dos);
-		sistema.agregaLocalidad(tres);
-		sistema.agregaLocalidad(cuatro);
-		sistema.agregaLocalidad(cinco);
-
-		sistema.imprimirMapa();
+		/**
+		Categoria a = Categoria.TIENDAS;
+		Categoria b = Categoria.ESCUELA;
+		Categoria c = Categoria.CINES;
+		Categoria d = Categoria.HOSPITAL;
+		PuntoDeInteres p = new PuntoDeInteres({a,b});
+		PuntoDeInteres q = new PuntoDeInteres({c,d});
+		Localidad uno = new Localidad("Mazatlan", true, p);
+		Localidad dos = new Localidad("Ciudad de Mexico", false);
+		Localidad tres = new Localidad("Ecatepec", true, q);
+		Mapa mapa = new Mapa({uno, dos, tres});
+		SistemaNavegacion sistema = new SistemaNavegacion(mapa);
+		Ruta ruta = new Ruta({"Mazatlan", "Ciudad de Mexico"}, {mapa.distancia(buscaLocalidad(uno)), mapa.distancia(buscaLocalidad(dos))});
+		
+		System.out.println(dos.getEsInteres());
+		sistema.altaLocalidad("Ciudad de Mexico");
+		System.out.println(dos.getEsInteres());
+		sistema.bajaLocalidad("Ecatepec");
+		System.out.println(tres.getEsInteres());
+		sistema.agregaRuta({ruta});
+		*/	
+		
 	}
+	
 }

@@ -1,3 +1,6 @@
+/**
+ * Enumeracion para las categorias de los puntos de interes.
+ */
 public enum Categoria {
 
 	NINGUNA,
@@ -6,5 +9,9 @@ public enum Categoria {
 
 	TIENDAS,
 
-	HOSPITAL
+	HOSPITAL,
+
+	ESCUELA,
+
+	CINES
 }
